@@ -1,0 +1,152 @@
+.widgets{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+.head{
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.deal{
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    height: 340px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 25%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 20px;
+}
+.types{
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+}
+.types ul {
+    list-style-type: none; /* Remove the default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.types li {
+        /* Makes the text bold */
+    margin-bottom: 10px;    /* Adds a gap of 10px between each list item */
+    color: gray;
+}
+.imgContainer{
+    width: 100%;
+    height: 50%;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Contents p{
+    padding: 7px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 24px;
+}
+.heading .icons{
+    color: rgb(14, 191, 14);
+    font-size: 15px;
+}
+.location{
+    height: 25px;
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+.location .icons{
+    color: rgb(14, 191, 14);
+    font-size: 15px; 
+}
+.rating{
+    width: 95%;
+    height: 24px;
+    font-size: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    width: 95%;
+    height: 24px;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.starRating{
+    display: flex;
+    color: orange;
+}
+.rating div span{
+    font-size: 14px;
+}
+.ratings{
+    font-size: 10px;
+}
+.cities{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    margin-top:5px;
+}
+.cities .icons{
+    color: green;
+    font-size: 12px;
+}
+.lastOptiosn{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    font-size: 15px;
+
+}
+.lastOptiosn .icons{
+    color: rgb(86, 241, 99);
+    font-size: 15px;
+}
+.contentsWrapper{
+    width: 98%;
+
+    margin: auto;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.directionIcon{
+    font-size: 25px;
+}
+.daysDes{
+    font-size: 12px;
+}
+.dailyTour{
+    font-size: 12px;
+}

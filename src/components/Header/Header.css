@@ -1,0 +1,194 @@
+.head{
+   height: 57px;
+   width: 100%;
+   background-color: white;
+   display: flex;  
+   align-items: center;
+}
+.logoContents{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin-left: 7%;
+    padding-top:9px;
+}
+.logo{
+    height: 50px;
+    
+}
+.logoContents ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.header-social-icon{
+    padding: 5px 0px;
+}
+.header-social-icon li a{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #979797;
+    font-size: 14px;
+}
+.header-social-icon li .nav-link img{
+    width: 18px;
+    /* height: 20px;*/
+}
+.headRight{
+    width: 20%;
+    height: 100%;
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.user-pic{
+    width: 25px;
+    height: 25px;
+}
+.right-contents{
+    display: flex;
+}
+.flag-icon{
+    height: 25px;
+    width: 25px;
+}
+.flagBox{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headRightOptions{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: f;
+}
+.headRightOptions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .flagBox {
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  .currencyDropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .currencyDropdown span {
+    margin-left: 8px; /* Adjust spacing as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .currencyDropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 100px; /* Adjust the width as needed */
+  }
+  
+  .currencyDropdown .dropdown-item {
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 12px; /* Reduce font size */
+    display: flex;
+    align-items: center;
+  }
+  
+  .currencyDropdown .dropdown-item img {
+    width: 16px; /* Reduce flag icon size */
+    height: auto;
+    margin-right: 5px; /* Adjust spacing as needed */
+  }
+  
+  .currencyDropdown .dropdown-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Show dropdown on click */
+  .currencyDropdown.show .dropdown-menu {
+    display: block;
+  }
+  .loginBox
+{
+    display: flex;
+    margin-left:2%;
+    gap: 5px;
+}
+  .user-pic img{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 3px;
+}
+.wpImg{
+    width: 29px;
+    height: 29px;
+    margin-top: -5px;
+}
+.navBottom{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navMain{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    margin: 0; /* Ensure there's no margin */
+    padding: 0; /* Ensure there's no padding */
+}
+.navBottom {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0; /* Ensure there's no margin */
+  padding: 0; /* Ensure there's no padding */
+  }
+  
+  .navBottom ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navBottom li {
+    margin: 0; /* Adjust the spacing between the items as needed */
+  }
+  
+  .navBottom .nav-link {
+    text-decoration: none;
+    color: #000; /* Adjust the text color as needed */
+    font-size: 13px; /* Adjust the font size as needed */
+  }
+  
+  .navBottom .nav-link:hover {
+    color: orange; /* Adjust the hover color as needed */
+  }
+  
+  .navBottom .nav-link.active {
+    font-weight: bold;
+     color: orange; /* Adjust the hover color as needed */
+    ; /* Adjust the active link color as needed */
+  }
+  

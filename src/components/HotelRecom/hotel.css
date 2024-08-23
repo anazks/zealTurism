@@ -1,0 +1,126 @@
+.hotelDiv{
+    width: 72rem;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+}
+.hotelDiv h2{
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 400;
+}
+.mainDivhotel{
+    height: 100%;
+    width: 72rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 30px;
+    position: relative;
+}
+.right{
+    width: 48%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nameBox {
+    position: absolute;
+    bottom: 10px; /* Adjust this value to control the vertical positioning */
+    left: 120px;   /* Adjust this value to control the horizontal positioning */
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 300px;
+}
+.dubai{
+    font-size: 17px;
+}
+.nameBox h3{
+    text-align: center;
+}
+.nameBox h4{
+    text-align: center;
+}
+.nameBox h6{
+    text-align: center;
+    font-size: 10px;
+}
+.aed{
+    color: orangered;
+    font-size: 10px;
+}
+.leftInner{
+    width: 48%;
+    height: 100%;
+ 
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.innerRight{
+    width: 48%;
+    height: 100%;
+
+    border-radius: 30px;
+}
+.leftTop{
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+  
+}
+.leftTop div{
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.leftTopImg{
+   height: 60%;
+   width: 100%;
+   border-radius: 30px;
+
+}
+.leftTopImg img{
+    border-radius: 30px;
+    height: 27rem;
+}
+.leftBottom img{
+    border-radius: 30px;
+}
+.RightImages img{
+    height: 170px;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.innerRight{
+    height: 100%;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}

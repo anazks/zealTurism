@@ -1,0 +1,96 @@
+.footer{
+    width: 100%;
+    height: 650px;
+    background-color: #015AA9;
+    padding: 15px;
+}
+.Footercontents{
+    width: 64%;
+    height: 100%;
+    margin: auto;
+}
+.Footercontents{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 50%;
+   
+}
+.topFooter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoFooter{
+    width: 300px;
+    height: 100%;
+    padding: 14px;
+   
+ 
+}
+.logoFooter .img{
+    width: 100%;
+    height:auto
+}
+.whiteLogo{
+    width: 100px;
+    height: 50px;
+}
+.textsFooter{
+    color: white;
+}
+.footerText b{
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    font-weight: 700;
+}
+.boxEmail{
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-top: 15px;
+}
+.footerInput{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.footericon{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+}
+.box_Service {
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(191, 186, 186);
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.box_Service h3 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.box_Service ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.box_Service ul li {
+    margin-bottom: 10px; /* Space between each list item */
+    font-size: 16px; /* Adjust font size if needed */
+}
+
+/* Optional: Hover effect for list items */
+.box_Service ul li:hover {
+    color: orangered; /* Change color on hover */
+    cursor: pointer;
+}
