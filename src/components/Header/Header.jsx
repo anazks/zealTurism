@@ -1,6 +1,8 @@
 import React from 'react'
 import   './Header.css'
+import Login from '../Modals/Login'
 function Header() {
+    const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className='navMain'>
         <div className="head">
@@ -35,9 +37,14 @@ function Header() {
                 </div>
                 <div className='loginBox'>
                         <span className="user-pic"><img src="assets/img/No_user.png"/></span>  
-                        <span>Login</span>
+                        <span onClick={() => setModalShow(true)}>Login</span>
                         
                 </div>
+
+                <Login
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
                 <div>
                 <a href="javascript:void(0);" className="nav-link" id="waht-call" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/Icons/WhtsaapCall.png" className='wpImg'/></a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="waht-call">

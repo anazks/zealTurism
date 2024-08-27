@@ -1,0 +1,125 @@
+
+.headColor {
+ background-color: #015AA9;
+    border-bottom: none;
+    position: relative;
+    color: white;
+  }
+  
+  .close-button {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: #000;
+    border-radius: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .input-container {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .input-container input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.75rem;
+    padding-top: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    font-size: 0.85rem;
+    color: #495057;
+    background: white;
+    padding: 0 0.25rem;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .input-container input:focus + label,
+  .input-container input:not(:placeholder-shown) + label {
+    top: -0.5rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    color: #007bff;
+    background: white;
+  }
+.otp{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}  
+.bottomForm{
+    display: flex;
+    justify-content: space-between;
+}
+.loginButton{
+    background-color: #f97119;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+.createAc{
+    text-align: center;
+}
+.line-with-circle {
+    position: relative;
+    width: 100%;
+    height: 2px; /* Adjust as needed for line thickness */
+    background-color: grey; /* Line color */
+    margin-top: 20px; /* Space above the line */
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px; /* Circle diameter */
+    height: 40px; /* Circle diameter */
+    background-color: #fff; /* Circle color */
+    border-radius: 50%;
+    border: 1px solid #000; /* Circle border color */
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LoginBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fb{
+    width: 47%;
+    height: 40px;
+    background-color: #1877F2;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.google{
+    width: 47%;
+    height: 40px;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
